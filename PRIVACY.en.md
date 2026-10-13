@@ -58,7 +58,6 @@ Each service technically receives your IP address with every request.
 | Overpass API (overpass-api.de), OpenStreetMap | Stations nearby | position, search radius |
 | OpenFreeMap (tiles.openfreemap.org) | Maps in the app | map area shown |
 | Google Play | Notice of new versions | as for any app from Google Play |
-| Your own home server (developer options only) | Backup to a server you enter yourself | your backup |
 
 ## Permissions
 

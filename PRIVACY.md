@@ -59,7 +59,6 @@ Bei jeder Anfrage erhält der jeweilige Dienst technisch bedingt deine IP-Adress
 | Overpass API (overpass-api.de), OpenStreetMap | Tankstellen in der Nähe | Position, Suchradius |
 | OpenFreeMap (tiles.openfreemap.org) | Karten in der App | angezeigter Kartenausschnitt |
 | Google Play | Hinweis auf neue Versionen | wie bei jeder App aus Google Play |
-| Eigener Heimserver (nur Entwickleroptionen) | Sicherung auf einen Server, den du selbst angibst | deine Sicherung |
 
 ## Berechtigungen
 
