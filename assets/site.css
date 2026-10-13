@@ -56,7 +56,6 @@ body {
   background: var(--bg);
   color: var(--text);
   font: 400 16px/1.6 var(--font-body);
-  font-variant-numeric: tabular-nums;
 }
 
 a { color: var(--link); text-underline-offset: 3px; }
@@ -159,7 +158,7 @@ a:hover { text-decoration-thickness: 2px; }
 .doc li + li { margin-top: var(--s2); }
 .doc table {
   display: block; overflow-x: auto; width: 100%; margin: var(--s4) 0;
-  border-collapse: collapse; font-size: 14px;
+  border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums;
 }
 .doc th, .doc td { padding: var(--s2) var(--s3); text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); }
 .doc th { color: var(--text); font-weight: 600; white-space: nowrap; }

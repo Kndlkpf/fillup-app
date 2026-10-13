@@ -13,6 +13,7 @@ Daten die App verarbeitet und wohin sie gelangen.
 ## Verantwortlich
 
 Michael Bernegger
+
 E-Mail: kndlkpf@gmail.com
 
 ## Kurz gesagt
