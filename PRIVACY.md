@@ -19,12 +19,12 @@ E-Mail: kndlkpf@gmail.com
 ## Kurz gesagt
 
 - Fillup hat kein Konto, keine Werbung, keine Analyse- oder Tracking-Dienste.
-- Deine Fahrzeugdaten, Belegfotos und Fahrten liegen nur auf deinem Gerät.
+- Deine Fahrzeugdaten, Fotos und Fahrten liegen nur auf deinem Gerät.
 - Ins Internet gehen nur Anfragen, die für eine Funktion nötig sind (siehe unten). Wir verkaufen keine Daten.
 
 ## Daten auf deinem Gerät
 
-Fahrzeuge, Tankungen, Werkstattbesuche, Kosten, Erinnerungen, Belegfotos, Vorlagen und aufgezeichnete Fahrten
+Fahrzeuge mit ihren Fotos, Tankungen, Werkstattbesuche, Kosten, Erinnerungen, Belegfotos, Vorlagen und aufgezeichnete Fahrten
 speichert Fillup in seinem eigenen App-Speicher. Nur wenn du in Fillup unter Einstellungen „Im Google-Konto
 sichern“ einschaltest (standardmäßig aus), sichert Android diese Daten nach den Regeln von Google in deinem Google-Konto.
 Eine direkte Übertragung auf ein neues Handy gibt es nicht. Sicherungen und CSV-Dateien, die du selbst erstellst,
@@ -67,7 +67,7 @@ Bei jeder Anfrage erhält der jeweilige Dienst technisch bedingt deine IP-Adress
 - **Standort im Hintergrund:** nur für das automatische Fahrtenbuch.
 - **Geräte in der Nähe (Bluetooth):** erkennen, wann sich dein Handy mit dem Auto verbindet.
 - **Benachrichtigungen:** Erinnerungen und laufende oder gespeicherte Fahrten.
-- **Kamera und Fotos:** nur wenn du einen Beleg fotografierst oder auswählst; Fillup nutzt dafür die Auswahl von
+- **Kamera und Fotos:** nur wenn du einen Beleg oder ein Fahrzeugfoto aufnimmst oder auswählst; Fillup nutzt dafür die Auswahl von
   Android und sieht nur die gewählten Bilder.
 
 ## Deine Rechte

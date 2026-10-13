@@ -20,12 +20,12 @@ Email: kndlkpf@gmail.com
 ## In short
 
 - Fillup has no account, no ads and no analytics or tracking services.
-- Your vehicle data, receipt photos and trips stay on your device.
+- Your vehicle data, photos and trips stay on your device.
 - Only requests needed for a feature go to the internet (see below). We do not sell any data.
 
 ## Data on your device
 
-Fillup stores vehicles, refuelling, workshop visits, costs, reminders, receipt photos, templates and recorded trips
+Fillup stores vehicles with their photos, refuelling, workshop visits, costs, reminders, receipt photos, templates and recorded trips
 in its own app storage. Only if you switch on "Back up to Google account" in Fillup's settings (off by default),
 Android backs up this data to your Google account under Google's rules. There is no direct transfer to a new phone. Backups and CSV files you create yourself are stored where you save them. A backup also contains your settings, including your Tankerkönig key.
 
@@ -65,7 +65,7 @@ Each service technically receives your IP address with every request.
 - **Location in the background:** only for the automatic trip log.
 - **Nearby devices (Bluetooth):** to notice when your phone connects to the car.
 - **Notifications:** reminders and running or saved trips.
-- **Camera and photos:** only when you take or pick a receipt photo; Fillup uses the Android picker and only sees
+- **Camera and photos:** only when you take or pick a receipt or vehicle photo; Fillup uses the Android picker and only sees
   the chosen pictures.
 
 ## Your rights
