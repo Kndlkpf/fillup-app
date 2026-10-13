@@ -1,0 +1,10 @@
+title: Fillup
+description: Tank- und Fahrtenbuch für Android. Tankungen, Verbrauch, Kosten und Fahrten im Blick, ohne Konto und ohne Werbung.
+lang: de
+exclude:
+  - README.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
