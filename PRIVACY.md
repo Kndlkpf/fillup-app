@@ -28,7 +28,8 @@ Fahrzeuge, Tankungen, Werkstattbesuche, Kosten, Erinnerungen, Belegfotos, Vorlag
 speichert Fillup in seinem eigenen App-Speicher. Nur wenn du in Fillup unter Einstellungen „Im Google-Konto
 sichern“ einschaltest (standardmäßig aus), sichert Android diese Daten nach den Regeln von Google in deinem Google-Konto.
 Eine direkte Übertragung auf ein neues Handy gibt es nicht. Sicherungen und CSV-Dateien, die du selbst erstellst,
-liegen dort, wo du sie speicherst.
+liegen dort, wo du sie speicherst. Eine Sicherung enthält auch deine Einstellungen,
+darunter deinen Tankerkönig-Schlüssel.
 
 Für die Fehlersuche führt Fillup ein kleines Protokoll auf dem Gerät (höchstens 256 KB): was die Tankstellensuche
 und das Fahrtenbuch getan haben, zum Beispiel „Auto verbunden“ oder „Fahrt gespeichert“, mit Uhrzeit. Standorte,

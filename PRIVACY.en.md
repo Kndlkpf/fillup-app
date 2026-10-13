@@ -27,7 +27,7 @@ Email: kndlkpf@gmail.com
 
 Fillup stores vehicles, refuelling, workshop visits, costs, reminders, receipt photos, templates and recorded trips
 in its own app storage. Only if you switch on "Back up to Google account" in Fillup's settings (off by default),
-Android backs up this data to your Google account under Google's rules. There is no direct transfer to a new phone. Backups and CSV files you create yourself are stored where you save them.
+Android backs up this data to your Google account under Google's rules. There is no direct transfer to a new phone. Backups and CSV files you create yourself are stored where you save them. A backup also contains your settings, including your Tankerkönig key.
 
 For troubleshooting, Fillup keeps a small log on the device (at most 256 KB): what the station search and the trip
 log did, for example "car connected" or "trip saved", with the time. Locations, addresses and Bluetooth addresses are
