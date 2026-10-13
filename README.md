@@ -1,14 +1,12 @@
-# Fillup Releases
+# Fillup
 
-Signierte APKs von **Fillup**, dem Fahrtenbuch und Tank-Logbuch für Android. Der Quellcode ist privat, dieses Repository enthält nur die Releases.
+**Fillup** ist ein Fahrtenbuch und Tank-Logbuch für Android. Es gibt Fillup nur noch über Google Play; die früheren
+APK-Releases aus diesem Repository sind eingestellt.
 
-## Installieren
+Dieses Repository enthält die Datenschutzerklärung der App:
 
-1. Unter [Releases](https://github.com/SgtHater/Fillup-Releases/releases/latest) die neueste `fillup-<version>.apk` herunterladen.
-2. Auf dem Handy öffnen und die Installation aus unbekannten Quellen erlauben.
+- [Datenschutzerklärung (Deutsch)](PRIVACY.md)
+- [Privacy policy (English)](PRIVACY.en.md)
 
-Danach aktualisiert sich Fillup selbst: Die App sucht bei jedem Start nach einer neuen Version, in den Einstellungen gibt es zusätzlich „Nach Updates suchen“.
-
-## Beta
-
-Versionen wie `2.6.0-beta.1` sind als *Pre-release* markiert. Sie bekommt nur, wer in Fillup unter Einstellungen „Beta-Versionen erhalten“ einschaltet. Betas können Fehler enthalten. Eine installierte Version lässt sich nicht zurückstufen, nur durch eine neuere ersetzen.
+Wer Fillup bisher über GitHub installiert hatte: `de.fillup` lässt sich über Google Play aktualisieren. Aus Fillup Beta
+überträgst du deine Daten mit Sicherung und Wiederherstellen in die Play-Version.
