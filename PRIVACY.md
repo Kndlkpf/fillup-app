@@ -5,7 +5,7 @@ permalink: /privacy.html
 
 # Datenschutzerklärung für Fillup
 
-Stand: Oktober 2026
+Stand: 15. Oktober 2026
 
 Fillup ist ein Fahrtenbuch für Tankungen, Werkstattbesuche, Kosten und Fahrten. Diese Erklärung beschreibt, welche
 Daten die App verarbeitet und wohin sie gelangen.
@@ -31,16 +31,23 @@ Eine direkte Übertragung auf ein neues Handy gibt es nicht. Sicherungen und CSV
 liegen dort, wo du sie speicherst. Eine Sicherung enthält auch deine Einstellungen,
 darunter deinen Tankerkönig-Schlüssel.
 
-Für die Fehlersuche führt Fillup ein kleines Protokoll auf dem Gerät (höchstens 256 KB): was die Tankstellensuche
-und das Fahrtenbuch getan haben, zum Beispiel „Auto verbunden“ oder „Fahrt gespeichert“, mit Uhrzeit. Standorte,
+Die zuletzt geladene Ladesäulenliste (Daten des Ladesäulenregisters und der Mittelpunkt des Suchkreises) hält Fillup
+bis zu 24 Stunden in einer Datei im Zwischenspeicher der App, damit sie nach einem Neustart sofort da ist. Android kann
+sie jederzeit löschen; sie ist nicht Teil einer Sicherung und verlässt das Gerät nicht.
+
+Für die Fehlersuche führt Fillup ein kleines Protokoll auf dem Gerät (höchstens 512 KB): was die Suche nach
+Tankstellen und Ladesäulen, die Preisabfrage und das Fahrtenbuch getan haben, zum Beispiel „Auto verbunden“ oder
+„Fahrt gespeichert“, mit Uhrzeit. Zu Abfragen bei Diensten stehen nur Art, Umkreis, Dauer und Trefferzahl darin. Standorte,
 Adressen und Bluetooth-Adressen stehen nicht darin. Das Protokoll verlässt das Gerät nur, wenn du unter
 Einstellungen „Fehlerbericht erstellen“ wählst. Dann bestimmst du über das Teilen-Menü selbst, an wen es geht; der
 Bericht enthält zusätzlich App-Version, Android-Version, Gerätemodell und den Stand der Berechtigungen.
 
 ## Standort
 
-- **Tankstellensuche und Spritpreise:** Wenn du danach suchst, sendet Fillup deine ungefähre Position an die unten
-  genannten Dienste, um Tankstellen in der Nähe zu finden. Bei einer Tankung speichert Fillup den Ort der Tankung
+- **Tankstellensuche, Spritpreise und Ladesäulen:** Wenn du danach suchst, sendet Fillup deine ungefähre Position an die unten
+  genannten Dienste, um Tankstellen oder Ladesäulen in der Nähe zu finden. Bei einem E-Auto zeigen der Tab Laden und die Suche
+  im Formular die Ladesäulen des Ladesäulenregisters der Bundesnetzagentur; die Position geht dafür nur auf Abruf beim
+  Öffnen oder Aktualisieren des Tabs oder bei „In der Nähe suchen“ an deren Kartendienst, nie im Hintergrund. Bei einer Tankung speichert Fillup den Ort der Tankung
   auf deinem Gerät.
 - **Beim Öffnen der App:** Hast du die Standortberechtigung erteilt, bestimmt Fillup beim Öffnen einmal deinen
   Standort, damit die Tankstellensuche schneller geht. Er bleibt auf deinem Gerät und geht erst bei einer Suche an
@@ -57,13 +64,14 @@ Bei jeder Anfrage erhält der jeweilige Dienst technisch bedingt deine IP-Adress
 | Dienst | Wofür | Welche Daten |
 |---|---|---|
 | Tankerkönig (creativecommons.tankerkoenig.de) | Spritpreise in Deutschland | Position, Suchradius |
+| Bundesnetzagentur, Ladesäulenregister (über ArcGIS Online von Esri, services-eu1.arcgis.com) | Ladesäulen in der Nähe (E-Autos, Tab und Formular) | Position, Suchradius |
 | Overpass API (overpass-api.de), OpenStreetMap | Tankstellen in der Nähe | Position, Suchradius |
 | OpenFreeMap (tiles.openfreemap.org) | Karten in der App | angezeigter Kartenausschnitt |
 | Google Play | Hinweis auf neue Versionen | wie bei jeder App aus Google Play |
 
 ## Berechtigungen
 
-- **Standort:** Tankstellensuche, Spritpreise und das automatische Fahrtenbuch.
+- **Standort:** Tankstellensuche, Spritpreise, Ladesäulen und das automatische Fahrtenbuch.
 - **Standort im Hintergrund:** nur für das automatische Fahrtenbuch.
 - **Geräte in der Nähe (Bluetooth):** erkennen, wann sich dein Handy mit dem Auto verbindet.
 - **Benachrichtigungen:** Erinnerungen und laufende oder gespeicherte Fahrten.

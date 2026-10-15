@@ -6,7 +6,7 @@ lang: en
 
 # Privacy policy for Fillup
 
-Last updated: October 2026
+Last updated: 15 October 2026
 
 Fillup is a log book for refuelling, workshop visits, costs and trips. This policy describes which data the app
 processes and where it goes.
@@ -29,16 +29,20 @@ Fillup stores vehicles with their photos, refuelling, workshop visits, costs, re
 in its own app storage. Only if you switch on "Back up to Google account" in Fillup's settings (off by default),
 Android backs up this data to your Google account under Google's rules. There is no direct transfer to a new phone. Backups and CSV files you create yourself are stored where you save them. A backup also contains your settings, including your Tankerkönig key.
 
-For troubleshooting, Fillup keeps a small log on the device (at most 256 KB): what the station search and the trip
-log did, for example "car connected" or "trip saved", with the time. Locations, addresses and Bluetooth addresses are
+Fillup keeps the charging station list it loaded last (data of the charging register and the middle of the search circle) for up to 24 hours in a file in the app's cache, so it is there right away after a restart. Android can delete it at any time; it is not part of a backup and never leaves the device.
+
+For troubleshooting, Fillup keeps a small log on the device (at most 512 KB): what the search for stations and charging points, the price lookup and the trip
+log did, for example "car connected" or "trip saved", with the time. For requests to services it only holds the kind, radius, duration and number of results. Locations, addresses and Bluetooth addresses are
 not in it. The log only leaves the device if you choose "Create error report" in the settings. You then decide in the
 share menu who gets it; the report also contains the app version, Android version, device model and the state of
 the permissions.
 
 ## Location
 
-- **Station search and fuel prices:** when you search, Fillup sends your approximate position to the services
-  listed below to find stations nearby. For a refuelling, Fillup stores the place of the refuelling
+- **Station search, fuel prices and charging stations:** when you search, Fillup sends your approximate position to the services
+  listed below to find stations nearby. For an electric car, the Charge tab and the search in the form show the charging stations of the
+  Bundesnetzagentur register; the position goes to its map service only on request, when you open or refresh the tab
+  or tap "Search nearby", never in the background. For a refuelling, Fillup stores the place of the refuelling
   on your device.
 - **When you open the app:** if you have granted the location permission, Fillup determines your location once
   when you open it, so the station search is faster. It stays on your device and only goes to the services when
@@ -55,13 +59,14 @@ Each service technically receives your IP address with every request.
 | Service | Purpose | Data |
 |---|---|---|
 | Tankerkönig (creativecommons.tankerkoenig.de) | Fuel prices in Germany | position, search radius |
-| Overpass API (overpass-api.de), OpenStreetMap | Stations nearby | position, search radius |
+| Bundesnetzagentur, charging station register (via ArcGIS Online by Esri, services-eu1.arcgis.com) | Charging stations nearby (electric cars, tab and form) | position, search radius |
+| Overpass API (overpass-api.de), OpenStreetMap | Fuel stations nearby | position, search radius |
 | OpenFreeMap (tiles.openfreemap.org) | Maps in the app | map area shown |
 | Google Play | Notice of new versions | as for any app from Google Play |
 
 ## Permissions
 
-- **Location:** station search, fuel prices and the automatic trip log.
+- **Location:** station search, fuel prices, charging stations and the automatic trip log.
 - **Location in the background:** only for the automatic trip log.
 - **Nearby devices (Bluetooth):** to notice when your phone connects to the car.
 - **Notifications:** reminders and running or saved trips.
